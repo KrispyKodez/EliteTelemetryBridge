@@ -1,0 +1,23 @@
+{
+  "journal_directory": "",
+  "output_directory": "output",
+  "archive_mode": "production",
+  "production_archive_skip_events": [
+    "Music",
+    "ReceiveText"
+  ],
+  "production_archive_deduplicate_events": [
+    "ShipLocker"
+  ],
+  "show_raw_json": false,
+  "read_existing_events_on_first_run": true,
+  "capture_companion_files": true,
+  "poll_interval_seconds": 2.0,
+  "state_flush_interval_seconds": 0.25,
+  "write_split_state_files": false,
+  "api_enabled": true,
+  "api_host": "127.0.0.1",
+  "api_port": 8765,
+  "api_replay_buffer_events": 2000,
+  "api_client_queue_events": 256
+}

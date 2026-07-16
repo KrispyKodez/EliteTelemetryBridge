@@ -1,0 +1,27 @@
+# Local tooling
+.agents/
+.codex/
+.venv/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.coverage
+.pytest_cache/
+
+# Private runtime data
+output/
+telemetry-settings.json
+*.log
+
+# Generated builds
+build/
+dist/
+release/
+*.spec
+
+# Operating-system files
+Thumbs.db
+.DS_Store
